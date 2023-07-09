@@ -19,10 +19,7 @@ const Navbar = (props) => {
                             <Link className="nav-link active" aria-current="page" to="/about">About</Link>
                         </li> */}
                     </ul>
-                    <form className="d-flex">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-primary" type="submit">Search</button>
-                    </form>
+                    
                 </div>
             </div>
             <div className={`form-check form-switch mx-4 text-${props.mode === "dark"?"light":"dark"}`}>
